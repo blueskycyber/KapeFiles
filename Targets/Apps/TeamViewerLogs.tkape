@@ -25,3 +25,11 @@ Targets:
         IsDirectory: true
         Recursive: true
         Comment: "Includes miscellaneous config files"
+        
+    -
+        Name: TeamViewer User Connection Logs
+        Category: Communications
+        Path: C:\Users\%user%\AppData\Local\Temp\TeamViewer\Version*\Connections_incoming.txt
+        IsDirectory: false
+        Recursive: false
+        Comment: "Includes connections_incoming.txt"
